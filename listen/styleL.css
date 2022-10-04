@@ -1,0 +1,131 @@
+body {
+    background: rgb(252, 115, 245);
+    font: 14px Georgia, serif;
+  }
+
+#page-wrap { width: 500px; margin: 0 auto;}
+
+h1  { margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; }
+
+#quiz input {
+    vertical-align: middle;
+}
+
+
+#quiz ol {
+   margin: 25px 0  25px 0%;
+   background-color: aliceblue;
+   width: 110%;
+   height: 110%;
+   border-radius: 4px;
+}
+
+#quiz ol li {
+   margin: 0 0 20px 0;
+}
+
+#quiz ol li div {
+   padding: 4px 0;
+}
+
+#quiz h3 {
+   font-size: 17px; margin: 0 0 1px 0; color: rgb(54, 54, 54);
+}
+
+#results {
+    font: 44px Georgia, Serif;
+}
+
+.button{
+    position: absolute;
+    text-align: center;
+    color: aqua;
+}
+.wrapper {
+    text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.center-block2 {
+    display: block;
+    margin:auto;
+    color: aliceblue;
+    background-color: rgb(148, 3, 87);
+    font: 44px Georgia, Serif;
+  }
+.botaosentro{
+    vertical-align: middle;
+    color: aliceblue;
+    background-color:  rgb(148, 3, 87);
+    font: 44px Georgia, Serif;
+}
+
+.radio{
+    font: 44px Georgia, Serif;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    
+  }
+  .title{
+    display: block;
+    text-align: center;
+  }
+.text{
+
+    display: block;
+    text-align: center;
+}
+.submitbtn{
+    display: block;
+    margin:auto;
+    border-style:inset;
+    text-align: center;
+    font:30px Georgia, Serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.submitbtn2{
+    display: block;
+    margin:auto;
+    border-style:inset;
+    text-align: center;
+    font:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.submitbtn2:hover{
+    border: 2px solid rgb(173, 46, 88);
+    transform: scale(1.0); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+.result{
+    font:50px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+.geral{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.titulo{
+    display: block;
+    margin:auto;
+    border-style:inset;
+    text-align: center;
+    font:40px;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
