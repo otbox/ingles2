@@ -4,7 +4,7 @@
 	
 	<title>Advanced Name the Image</title>
 	
-	<link rel="stylesheet" type="text/css" href="stylen.css" />
+	<link rel="stylesheet" type="text/css" href="stylen1.css" />
 </head>
 
 <body>

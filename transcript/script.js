@@ -136,14 +136,16 @@ var c = 0;
 function something(){
     c++;
     if (c > 10){
-        const input = prompt("Hello, who are you?");
+        const input1 = prompt("Hello, who are you?");
+        var input = input1.toString().replace("I'am ","").toLowerCase();
+        console.log(input);
         switch (input){
-            case "I'am your Developer":
+            case "developer":
                 console.log("Hello my master, how i help you?");
             break;
 
-            case "I'am the Teacher":
-                const input1 = prompt("Hello teacher, it's a easter egg, this work woth 10?");
+            case "teacher":
+                const input1 = prompt("Hello teacher, it's a easter egg, this work worth 10?");
                 switch (input1){
                     case "yes":
                         alert("You're welcome, teacher.");
@@ -156,15 +158,15 @@ function something(){
                 }
             break;    
             
-            case "I'am João Pellisari":
+            case "joão pelisari":
                 alert("Hello president of the republic of Pellissari");
             break;
-            case"I'am Pepino the Short":
+            case"pepino the short":
                 alert("It's a joke, he died  in 768");
             break;    
 
             default:
-                console.log("Hello,"+ input.toString().replace("I'am ",""))
+                alert("Hello,"+ input.toString().replace("I'am ",""))
         }
     }
 }

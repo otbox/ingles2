@@ -5,7 +5,7 @@
 	
 	<title>Atividade Advanced Tranlate</title>
 	<link rel="icon" href="https://img.a.transfermarkt.technology/portrait/header/225083-1598302373.jpg?lm=1">
-	<link rel="stylesheet" type="text/css" href="../stylen.css" />
+	<link rel="stylesheet" type="text/css" href="../styleL.css" />
 </head>
 
 <body>
@@ -17,8 +17,9 @@
 		<form action="Aresult.php" method="post" id="quiz">
             <br><br>
             <ol>
-            <br>
+            
              <!-------------------------------------------------------Questao 1---------------------------------------------------------------------->   
+             <div class="questao">
                     <img src="image/office.png" width="500" height="500"><br> 
                     <audio controls>
                     <source src = "audio/officeRules.mp3" type = "audio/mp3">
@@ -45,8 +46,9 @@
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
                         <label for="question-1-answers-D">D) Arbitrário</label>
                     </div>
-                <br><br><br>
+                </div>
                 <!-------------------------------------------------------Questao 2---------------------------------------------------------------------->
+                <div class="questao">
                     <img src="image/window2.png" width="500" height="500"><br> 
                     <audio controls>
                     <source src = "audio/renato.mp3" type = "audio/mp3">
@@ -73,8 +75,9 @@
                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
                         <label for="question-2-answers-D">D) A janela está emperrada</label>
                     </div>
-                    <br><br><br>
+                </div>
                 <!-------------------------------------------------------Questao 3---------------------------------------------------------------------->
+                <div class="questao">
                     <img src="image/image.png" width="500" height="500"><br> 
                     <audio controls>
                     <source src = "audio/cara.mp3" type = "audio/mp3">
@@ -101,11 +104,9 @@
                         <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
                         <label for="question-3-answers-D">D) Abri-la</label>
                     </div>
-                    <br><br>
+                </div>
             </ol>
-            <br><br>
             <input class="submitbtn2"style='font-size:24px' type="submit" value="Show Result"  />
-            <br><br><br><br>
 		</form>
 	
 	</div>
