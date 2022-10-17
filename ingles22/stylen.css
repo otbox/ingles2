@@ -1,0 +1,147 @@
+body {
+    background: rgb(255, 157, 250);
+    font: 14px Georgia, serif;
+  }
+
+#page-wrap { width: 500px; margin: auto;}
+
+#quiz h1  { font: 25px Candara, serif; text-transform: uppercase; letter-spacing: 3px;font-weight: bold;}
+
+#quiz input {
+    vertical-align: middle;
+}
+
+#quiz input:hover{
+    transform: scale(1.0); 
+    box-shadow: 0 5px 15px rgba(243, 60, 228, 0.6);
+}
+
+#quiz ol {
+   margin: 25px 25px  0px 0%;
+   background-color: aliceblue;
+   width: 110%;
+   height: 110%;
+   border-radius: 4px;
+}
+
+#quiz label{
+    font: 12pt Candara, serif;
+}
+#quiz label:hover{
+    color: rgba(243, 60, 228, 0.6);
+}
+#quiz ol li {
+   margin: 0 0 20px 0;
+}
+
+#quiz ol li div {
+   padding: 4px 0;
+}
+
+#quiz h3 {
+   font-size: 17px; margin: 0 0 1px 0; color: rgb(54, 54, 54);
+}
+
+#results {
+    font: 44px Georgia, Serif;
+}
+
+.button{
+    position: absolute;
+    text-align: center;
+    color: aqua;
+}
+.wrapper {
+    text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.center-block2 {
+    display: block;
+    margin:auto;
+    color: aliceblue;
+    background-color: rgb(148, 3, 87);
+    font: 44px Georgia, Serif;
+  }
+.botaosentro{
+    vertical-align: middle;
+    color: aliceblue;
+    background-color:  rgb(148, 3, 87);
+    font: 44px Georgia, Serif;
+}
+
+.radio{
+    font: 44px Georgia, Serif;
+
+}
+
+/*.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    
+  }*/
+  .title{
+    display: block;
+    text-align: center;
+  }
+.text{
+
+    display: block;
+    text-align: center;
+}
+.submitbtn{
+    display: block;
+    margin:auto;
+    border-style:inset;
+    text-align: center;
+    font:30px Georgia, Serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.submitbtn2{
+    display: block;
+    margin:auto;
+    border-style:inset;
+    text-align: center;
+    font: 25px Candara, serif;
+    border-color: aqua;
+   
+    background-color: rgb(255, 198, 252);
+    color: rgb(196, 138, 219);
+    border-radius: 4px;
+}
+.submitbtn2:hover{
+    border: 2px solid rgb(173, 46, 88);
+    transform: scale(1.0); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+.result{
+    font:50px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+.geral{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.titulo{
+    display: block;
+    margin:auto;
+    border-style:dashed;
+    border-width: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font:40px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
