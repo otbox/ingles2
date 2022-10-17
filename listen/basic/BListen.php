@@ -2,8 +2,7 @@
 
 <head>
 	<meta charset=UTF-8" />
-	
-	<title>Atividade Basica Tranlate</title>
+	<title>Atividade Basica Translate</title>
 	<link rel="icon" href="https://img.a.transfermarkt.technology/portrait/header/225083-1598302373.jpg?lm=1">
 	<link rel="stylesheet" type="text/css" href="../stylen.css" />
 </head>
@@ -17,9 +16,10 @@
                         <br>
 		<form action="Bresult.php" method="post" id="quiz">
 		
-            <ol >
+            <ol>
             
              <!-------------------------------------------------------Questao 1---------------------------------------------------------------------->   
+                <div class="questao">    
                     <img src="image/fotoR.png" width="500" height="500"><br> 
                     <audio controls>
                     <source src = "audio/Robo.mp3" type = "audio/mp3">
@@ -47,7 +47,9 @@
                         <label for="question-1-answers-D">D) Doente</label>
                     </div>
                 <br><br><br>
+                </div>
                 <!-------------------------------------------------------Questao 2---------------------------------------------------------------------->
+                <div class="questao">   
                     <img src="image/luis.png" width="500" height="500"><br> 
                     <audio controls>
                     <source src = "audio/menino.mp3" type = "audio/mp3">
@@ -74,8 +76,9 @@
                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
                         <label for="question-2-answers-D">D) Cama</label>
                     </div>
-                
+                </div>
                 <!-------------------------------------------------------Questao 3---------------------------------------------------------------------->
+                <div class="questao">
                     <img src="image/luisa.png" width="500" height="500"><br> 
                     <audio controls>
                     <source src = "audio/minina.mp3" type = "audio/mp3">
@@ -102,11 +105,14 @@
                         <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
                         <label for="question-3-answers-D">D) Ficou Muito Triste Semana Passada</label>
                     </div>
-                    <br> <br> 
+                </div>
+                
+                    
+                    <input class="submitbtn2"style='font-size:24px' type="submit" value="Show Result"/>
+                   
+                    <br><br><br><br>
             </ol>
-            <br><br>
-            <input class="submitbtn2"style='font-size:24px' type="submit" value="Show Result"/>
-            <br><br><br><br>
+            
 		</form>
 	
 	</div>

@@ -7,7 +7,7 @@
 	
 	<title>Resultado</title>
 	
-	<link rel="stylesheet" type="text/css" href="../stylen.css" />
+	<link rel="stylesheet" type="text/css" href="stylen.css" />
 </head>
 
 <body>
@@ -32,7 +32,7 @@
             echo "<div class ='result' id='results'>$totalCorrect / 3 correct</div>";   
         ?>
         <br><br><br><br>
-	<form action="../inicial.html" method="post" id="quiz">
+	<form action="../New Home/index.html" method="post" id="quiz">
     <input class="submitbtn2"style='font-size:24px' type="submit" value="Voltar para o Menu"  />
     </form> 
 	

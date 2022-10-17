@@ -1,9 +1,23 @@
+html{
+    padding-top: 45px;
+}
+
 body {
-    background: rgb(255, 157, 250);
+    font: 14px Arial;
+    font-size: 16px;
+    margin: 0;
+    background: linear-gradient(to right bottom, #d13cff, #031f6a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
     font: 14px Georgia, serif;
   }
 
-#page-wrap { width: 500px; margin: auto;}
+#page-wrap { width: 550px; 
+    
+    }
 
 #quiz h1  { font: 25px Candara, serif; text-transform: uppercase; letter-spacing: 3px;font-weight: bold;}
 
@@ -16,13 +30,7 @@ body {
     box-shadow: 0 5px 15px rgba(243, 60, 228, 0.6);
 }
 
-#quiz ol {
-   margin: 25px 25px  0px 0%;
-   background-color: aliceblue;
-   width: 110%;
-   height: 110%;
-   border-radius: 4px;
-}
+
 
 #quiz label{
     font: 12pt Candara, serif;
@@ -89,6 +97,7 @@ body {
   .title{
     display: block;
     text-align: center;
+
   }
 .text{
 
@@ -103,15 +112,19 @@ body {
     font:30px Georgia, Serif;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .submitbtn2{
-    display: block;
-    margin:auto;
-    border-style:inset;
+    margin-bottom: 20px;
+    width: 110%;
+    color: #000;  
+    background-color: aliceblue;
     text-align: center;
-    font: 25px Candara, serif;
-    border-color: aqua;
-   
-    background-color: rgb(255, 198, 252);
+    border-radius: 4px;
+    margin-left: -8.5%;
+    font: 35px Tahoma, serif;
+    height: 45px;
+    border: 0px;
+    background-color: aliceblue;
     color: rgb(196, 138, 219);
     border-radius: 4px;
 }
@@ -137,11 +150,24 @@ body {
 .titulo{
     display: block;
     margin:auto;
+    padding: 10px 0px 10px 0px;
     border-style:dashed;
     border-width: 4px;
     border-radius: 4px;
     text-align: center;
-    font:40px;
+    font-size:40px;
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.questao{
+    padding: 10px 10px 20px 20px;
+    display: block;
+    margin-bottom: 20px;
+    color: #000;
+    margin-left: -12%; 
+    background-color: aliceblue;
+    width: 110%;
+    height: 110%;
+    border-radius: 4px;
 }

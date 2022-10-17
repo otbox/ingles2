@@ -7,13 +7,13 @@
 	
 	<title>Resultado</title>
 	
-	<link rel="stylesheet" type="text/css" href="../stylen.css" />
+	<link rel="stylesheet" type="text/css" href="stylen.css" />
 </head>
 
 <body>
 <div class = 'geral'>
     <div id="page-wrap">
-        <form action="../inicial.html" method="post" id="quiz">
+        <form action="../New Home/index.html" method="post" id="quiz">
 	
 
 		<h1 class ='titulo'>Result </h1>

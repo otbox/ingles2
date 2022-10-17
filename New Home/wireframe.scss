@@ -20,11 +20,11 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: #cdcdcd, /*cor 2*/
+  primary: #cdcdcd,
   secondary: #b0b0b0,
   light: #eaeaea,
   dark: #555555,
-  info: #8e8e8e, /*cor 1*/
+  info: #8e8e8e,
   success: #28a745,
   warning: #ffc107,
   danger: #dc3545
@@ -79,23 +79,9 @@ html,body {
 }
 
 .cover {
-	min-height: 100%;
+	min-height:100%;
 }
 
-
-/*-------------*/
-
-
-#images{
-  border-radius: 5px 5px 5px 5px;
-}
-
-
-.Images_tutorial img{
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.Images_tutorial img:hover {
-  -webkit-transform:scale(1.1);
-  transform:scale(1.1);
+.about:hover{
+  text-decoration-color: #28a745;
 }

@@ -5,7 +5,7 @@
 	
 	<title>Atividade Basica Complete</title>
 	<link rel="icon" href="https://img.a.transfermarkt.technology/portrait/header/225083-1598302373.jpg?lm=1">
-	<link rel="stylesheet" type="text/css" href="../stylen.css" />
+	<link rel="stylesheet" type="text/css" href="styleL.css" />
 </head>
 
 <body>
@@ -17,6 +17,7 @@
 		<form action="Aresult.php" method="post" id="quiz">
 		
             <ol>
+                <div class="questao">
                     </audio><br><br>
                     <h3>_______ is the bathroom? It is right there!</h3>
                     <br>
@@ -39,9 +40,9 @@
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
                         <label for="question-1-answers-D">D) How</label>
                     </div>
-                <br><br><br>
+                </div>
                 <!-------------------------------------------------------Questao 2---------------------------------------------------------------------->
-
+                <div class="questao">
                     <h3>I am from Brazil. I am _______.</h3>
                     <br>
                     <div>
@@ -63,8 +64,9 @@
                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
                         <label for="question-2-answers-D">D) Latin</label>
                     </div>
-                    <br><br><br>
+                </div>
                 <!-------------------------------------------------------Questao 3---------------------------------------------------------------------->
+                <div class="questao">
                     <h3>I work, you work, he _______.</h3>
                     <br>
                     <div>
@@ -87,9 +89,8 @@
                         <label for="question-3-answers-D">D) Working</label>
                     </div>
                     <br><br>
-            
+                </div>
             </ol>
-            <br><br>
             <input class="submitbtn2"style='font-size:24px' type="submit" value="Show Result"  />
             <br><br><br><br>
 		</form>

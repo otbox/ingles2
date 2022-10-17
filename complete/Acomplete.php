@@ -5,7 +5,7 @@
 	
 	<title>Atividade Advanced Complete</title>
 	<link rel="icon" href="https://img.a.transfermarkt.technology/portrait/header/225083-1598302373.jpg?lm=1">
-	<link rel="stylesheet" type="text/css" href="../stylen.css" />
+	<link rel="stylesheet" type="text/css" href="styleL.css" />
 </head>
 
 <body>
@@ -17,6 +17,7 @@
 		<form action="AResult.php" method="post" id="quiz">
 		
             <ol>
+                <div class="questao">
                     </audio><br><br>
                     <h3>I dont think they ______ have started the class yet, it's only 6:25.</h3>
                     <br>
@@ -39,9 +40,11 @@
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
                         <label for="question-1-answers-D">D) None of the above</label>
                     </div>
-                <br><br><br>
+                </div>    
+
                 <!-------------------------------------------------------Questao 2---------------------------------------------------------------------->
-<br><br>
+   
+                <div class="questao">
                     <h3>By the time he's 25, he will have _____ from college</h3>
                     <br>
                     <div>
@@ -63,9 +66,10 @@
                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
                         <label for="question-2-answers-D">D) Graduated</label>
                     </div>
-                    <br><br><br>
+                </div>
                 <!-------------------------------------------------------Questao 3---------------------------------------------------------------------->
-                    <h3>In another five minutes, they will have _ gone for three hours</h3>
+                <div class="questao">
+                <h3>In another five minutes, they will have _ gone for three hours</h3>
                     <br>
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
@@ -86,12 +90,10 @@
                         <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
                         <label for="question-3-answers-D">D) All of the above</label>
                     </div>
-                    <br><br>
-            
+                </div>
             </ol>
             <br><br>
             <input class="submitbtn2"style='font-size:24px' type="submit" value="Show Result"  />
-            <br><br><br><br>
 		</form>
 	
 	</div>
