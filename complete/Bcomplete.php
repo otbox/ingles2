@@ -10,6 +10,7 @@
 
 <body>
 <div class = 'geral'>
+<a href="../New Home/index.html"><img style = "position: absolute; left: 10px; top: 10px;    " src="../44913.png" alt="" width= "50px" height=  "50px"></a>
 	<div id="page-wrap">
 
 		<h1 class ='titulo'> Basic <p>Complete the Phrase </h1>
