@@ -53,12 +53,20 @@ async function result1(){
     var d11 = d1.split(".").join("");
     var d12 = d11.split(",").join("");
     var d13 = d12.split("?").join("");
+    var d14 = d13.split("'").join("");
+    var d15 = d14.split("!").join("");
+
     var d21 = d2.split(".").join("");
     var d22 = d21.split(",").join("");
     var d23 = d22.split("?").join("");
-   
-    //console.log("Spoke: "+d13+ "\n Dialog:" +d23);
-    if (d13 === d23){
+    var d24 = d23.split("'").join("");
+    var d25 = d24.split("!").join("");
+    var d26 = d25.split(/\"/g).join("");
+    var d26 = d26.replace(/\"/g, "");
+    
+
+    console.log("Spoke: "+d15+ "\n Dialog:" +d26);
+    if (d15 === d26){
         element[b].style.color = 'green';
         recording_text[b].innerHTML = "Correct";
     }else{
