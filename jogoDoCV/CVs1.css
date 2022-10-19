@@ -33,6 +33,7 @@ body {
 	border: 0px;
 	border-radius: 20px;
 	margin-left: 150px;
+	background-color: aliceblue;
 }
 
 .cwp_q_container {
@@ -57,6 +58,7 @@ body {
 	height: 50px;
 	top: 550px;
 	width: 550px;
+	
 }
 
 .cwp_h2_main {
@@ -129,7 +131,7 @@ body {
 .cwp_cell_disable {
 	border: hidden;
 	padding: 1.99px;
-	background-color: rgba(238, 238, 238, 1);
+	background-color: rgba(238, 238, 238, 0);
 	border-color: rgb(220, 220, 220);
 	cursor: default;
 }
